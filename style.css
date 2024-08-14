@@ -37,3 +37,40 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+:root {
+  --moderate-violet: hsl(263, 55%, 52%);
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Neutral colors */
+  --light-gray: hsl(0, 0%, 81%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: var(--light-grayish-blue);
+  font-size: 13px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.container {
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+  }
+}
