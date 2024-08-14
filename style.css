@@ -126,6 +126,12 @@ section {
 .item:nth-of-type(1) {
   background-color: var(--moderate-violet);
   color: var(--white);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top 0px right 20px;
+  @media screen and (min-width: 1440px) {
+    background-position: top 0px right 80px;
+  }
 }
 .item:nth-of-type(2) {
   background-color: var(--very-dark-grayish-blue);
