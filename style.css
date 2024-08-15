@@ -103,16 +103,12 @@ section {
   border-radius: 10px;
 }
 .wrapper {
-  display: flex;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  column-gap: 15px;
   margin-bottom: 15px;
 }
-.box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 5px;
-}
+
 .status {
   opacity: 0.5;
 }
